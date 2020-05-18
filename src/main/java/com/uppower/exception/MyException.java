@@ -7,9 +7,9 @@ package com.uppower.exception;
  * @modified By：
  * @version: $
  */
-public class UserException extends RuntimeException{
+public class MyException extends RuntimeException{
 
-    public UserException(String s) {
+    public MyException(String s) {
         super(s);
     }
 }

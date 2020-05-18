@@ -2,9 +2,11 @@ package com.uppower.service;
 
 import cn.windyrjc.utils.response.Response;
 import com.uppower.domain.Administrators;
+import com.uppower.domain.Student;
+import com.uppower.domain.Teacher;
 import com.uppower.exception.MyException;
 import com.uppower.mapper.AdministratorsMapper;
-
+import com.uppower.mapper.TeacherMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -19,18 +21,18 @@ import org.springframework.transaction.annotation.Transactional;
  */
 @Service
 @Slf4j
-public class AdministratorsService {
+public class TeacherService {
 
     @Autowired
-    AdministratorsMapper administratorsMapper;
+    TeacherMapper teacherMapper;
 
-    public Response administratorslogin(Administrators administrators){
-        if (administrators.getAno().equals("") || administrators.getApassword().equals("")){
+    public Response teacherlogin(Teacher teacher){
+        if (teacher.getTno().equals("") || teacher.getTpassword().equals("")){
             log.error("账号或密码为空");
             throw  new MyException("账号或密码为空");
         }
-        Administrators admin = administratorsMapper.findAdmin(administrators.getAno());
-        if (admin.getAno().equals(administrators.getAno()) && admin.getApassword().equals(administrators.getApassword())) {
+        Teacher mapperTeacher = teacherMapper.findTeacher(teacher.getTno());
+        if (teacher.getTno().equals(teacher.getTno()) && teacher.getTpassword().equals(teacher.getTpassword())) {
             return Response.success();
         } else {
             log.error("用户名或密码错误");
@@ -39,26 +41,26 @@ public class AdministratorsService {
     }
 
     @Transactional(rollbackFor = Exception.class)
-    public Response administratorsadd(Administrators administrators){
-        if (administratorsMapper.findAdmin(administrators.getAno())!=null){
-            log.error("此管理员账号已存在");
-            throw new MyException("此管理员账号已存在");
+    public Response teacheradd(Teacher teacher){
+        if (teacherMapper.findTeacher(teacher.getTno())!=null){
+            log.error("此教师账号已存在");
+            throw new MyException("此教师账号已存在");
         }
-        administratorsMapper.addAdmin(administrators);
+        teacherMapper.addTeacher(teacher);
         return Response.success();
     }
 
-    public Response administratorsupdate(Administrators administrators){
-        if (administratorsMapper.findAdmin(administrators.getApassword()).getApassword()==administrators.getApassword()){
+    public Response teacherupdate(Teacher teacher){
+        if (teacherMapper.findTeacher(teacher.getTpassword()).getTpassword() == teacher.getTpassword()){
             log.error("新密码不能原密码相同");
             throw new MyException("新密码不能原密码相同");
         }
-        administratorsMapper.updateAdmin(administrators);
+        teacherMapper.updateAdmin(teacher);
         return Response.success();
     }
 
-    public Response administratorsdelete (Administrators administrators){
-        administratorsMapper.deleteAdimin(administrators.getAno());
+    public Response teacherdelete (Teacher teacher){
+        teacherMapper.deleteAdimin(teacher.getTno());
         return Response.success();
     }
 }

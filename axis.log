@@ -272,3 +272,223 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'root' for ke
 2020-05-16 22:45:06,595 390    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10004} closed
 2020-05-16 22:45:06,595 390    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} closed
 2020-05-16 22:45:06,595 390    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10005} closed
+2020-05-18 18:07:05,382 0      [           main] DEBUG           druid.sql.Connection  - {conn-10001} connected
+2020-05-18 18:07:05,398 16     [           main] DEBUG           druid.sql.Connection  - {conn-10002} connected
+2020-05-18 18:07:05,398 16     [           main] DEBUG           druid.sql.Connection  - {conn-10003} connected
+2020-05-18 18:07:05,414 32     [           main] DEBUG           druid.sql.Connection  - {conn-10004} connected
+2020-05-18 18:07:05,429 47     [           main] DEBUG           druid.sql.Connection  - {conn-10005} connected
+2020-05-18 18:07:05,445 63     [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-18 18:07:05,570 188    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} created. select * from administrators where ano=?
+2020-05-18 18:07:05,586 204    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Parameters : [ak]
+2020-05-18 18:07:05,586 204    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Types : [VARCHAR]
+2020-05-18 18:07:05,586 204    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} executed. 8.2931 millis. select * from administrators where ano=?
+2020-05-18 18:07:05,586 204    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} open
+2020-05-18 18:07:05,586 204    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} Header: [ano, apassword]
+2020-05-18 18:07:05,601 219    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} closed
+2020-05-18 18:07:05,601 219    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} clearParameters. 
+2020-05-18 18:07:05,601 219    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-18 18:07:05,773 391    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10001} closed
+2020-05-18 18:07:05,773 391    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10002} closed
+2020-05-18 18:07:05,773 391    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10003} closed
+2020-05-18 18:07:05,773 391    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10004} closed
+2020-05-18 18:07:05,773 391    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} closed
+2020-05-18 18:07:05,773 391    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10005} closed
+2020-05-18 18:09:13,366 0      [           main] DEBUG           druid.sql.Connection  - {conn-10001} connected
+2020-05-18 18:09:13,506 140    [           main] DEBUG           druid.sql.Connection  - {conn-10002} connected
+2020-05-18 18:09:13,647 281    [           main] DEBUG           druid.sql.Connection  - {conn-10003} connected
+2020-05-18 18:09:13,788 422    [           main] DEBUG           druid.sql.Connection  - {conn-10004} connected
+2020-05-18 18:09:13,929 563    [           main] DEBUG           druid.sql.Connection  - {conn-10005} connected
+2020-05-18 18:09:13,960 594    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-18 18:09:14,350 984    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} created. select * from administrators where ano=?
+2020-05-18 18:09:14,366 1000   [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Parameters : [ak]
+2020-05-18 18:09:14,366 1000   [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Types : [VARCHAR]
+2020-05-18 18:09:14,397 1031   [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} executed. 34.8973 millis. select * from administrators where ano=?
+2020-05-18 18:09:14,397 1031   [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} open
+2020-05-18 18:09:14,413 1047   [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} Header: [ano, apassword]
+2020-05-18 18:09:14,413 1047   [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} closed
+2020-05-18 18:09:14,413 1047   [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} clearParameters. 
+2020-05-18 18:09:14,428 1062   [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-18 18:09:35,454 22088  [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10001} closed
+2020-05-18 18:09:35,469 22103  [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10002} closed
+2020-05-18 18:09:35,469 22103  [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10003} closed
+2020-05-18 18:09:35,469 22103  [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10004} closed
+2020-05-18 18:09:35,469 22103  [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} closed
+2020-05-18 18:09:35,469 22103  [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10005} closed
+2020-05-18 18:10:14,294 0      [           main] DEBUG           druid.sql.Connection  - {conn-10001} connected
+2020-05-18 18:10:14,451 157    [           main] DEBUG           druid.sql.Connection  - {conn-10002} connected
+2020-05-18 18:10:14,591 297    [           main] DEBUG           druid.sql.Connection  - {conn-10003} connected
+2020-05-18 18:10:14,732 438    [           main] DEBUG           druid.sql.Connection  - {conn-10004} connected
+2020-05-18 18:10:14,873 579    [           main] DEBUG           druid.sql.Connection  - {conn-10005} connected
+2020-05-18 18:10:14,904 610    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-18 18:10:15,326 1032   [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} created. select * from administrators where ano=?
+2020-05-18 18:10:15,341 1047   [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Parameters : [ak]
+2020-05-18 18:10:15,341 1047   [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Types : [VARCHAR]
+2020-05-18 18:10:15,373 1079   [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} executed. 35.3888 millis. select * from administrators where ano=?
+2020-05-18 18:10:15,373 1079   [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} open
+2020-05-18 18:10:15,388 1094   [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} Header: [ano, apassword]
+2020-05-18 18:10:15,388 1094   [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} closed
+2020-05-18 18:10:15,404 1110   [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} clearParameters. 
+2020-05-18 18:10:15,404 1110   [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-18 18:10:24,403 10109  [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10001} closed
+2020-05-18 18:10:24,418 10124  [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10002} closed
+2020-05-18 18:10:24,418 10124  [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10003} closed
+2020-05-18 18:10:24,418 10124  [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10004} closed
+2020-05-18 18:10:24,418 10124  [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} closed
+2020-05-18 18:10:24,418 10124  [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10005} closed
+2020-05-18 18:33:37,635 0      [           main] DEBUG           druid.sql.Connection  - {conn-10001} connected
+2020-05-18 18:33:37,651 16     [           main] DEBUG           druid.sql.Connection  - {conn-10002} connected
+2020-05-18 18:33:37,666 31     [           main] DEBUG           druid.sql.Connection  - {conn-10003} connected
+2020-05-18 18:33:37,682 47     [           main] DEBUG           druid.sql.Connection  - {conn-10004} connected
+2020-05-18 18:33:37,698 63     [           main] DEBUG           druid.sql.Connection  - {conn-10005} connected
+2020-05-18 18:33:37,698 63     [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10001} closed
+2020-05-18 18:33:37,713 78     [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10002} closed
+2020-05-18 18:33:37,713 78     [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10003} closed
+2020-05-18 18:33:37,713 78     [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10004} closed
+2020-05-18 18:33:37,713 78     [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10005} closed
+2020-05-18 18:36:40,300 0      [           main] DEBUG           druid.sql.Connection  - {conn-10001} connected
+2020-05-18 18:36:40,315 15     [           main] DEBUG           druid.sql.Connection  - {conn-10002} connected
+2020-05-18 18:36:40,347 47     [           main] DEBUG           druid.sql.Connection  - {conn-10003} connected
+2020-05-18 18:36:40,347 47     [           main] DEBUG           druid.sql.Connection  - {conn-10004} connected
+2020-05-18 18:36:40,362 62     [           main] DEBUG           druid.sql.Connection  - {conn-10005} connected
+2020-05-18 18:36:40,378 78     [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-18 18:36:40,503 203    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} created. select * from administrators where ano=?
+2020-05-18 18:36:40,518 218    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Parameters : [ak]
+2020-05-18 18:36:40,518 218    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Types : [VARCHAR]
+2020-05-18 18:36:40,518 218    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} executed. 9.619 millis. select * from administrators where ano=?
+2020-05-18 18:36:40,518 218    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} open
+2020-05-18 18:36:40,518 218    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} Header: [ano, apassword]
+2020-05-18 18:36:40,534 234    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} closed
+2020-05-18 18:36:40,534 234    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} clearParameters. 
+2020-05-18 18:36:40,534 234    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-18 18:36:40,581 281    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10001} closed
+2020-05-18 18:36:40,581 281    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10002} closed
+2020-05-18 18:36:40,581 281    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10003} closed
+2020-05-18 18:36:40,581 281    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10004} closed
+2020-05-18 18:36:40,581 281    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} closed
+2020-05-18 18:36:40,581 281    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10005} closed
+2020-05-18 18:39:43,606 0      [           main] DEBUG           druid.sql.Connection  - {conn-10001} connected
+2020-05-18 18:39:43,622 16     [           main] DEBUG           druid.sql.Connection  - {conn-10002} connected
+2020-05-18 18:39:43,638 32     [           main] DEBUG           druid.sql.Connection  - {conn-10003} connected
+2020-05-18 18:39:43,653 47     [           main] DEBUG           druid.sql.Connection  - {conn-10004} connected
+2020-05-18 18:39:43,669 63     [           main] DEBUG           druid.sql.Connection  - {conn-10005} connected
+2020-05-18 18:39:43,684 78     [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-18 18:39:43,825 219    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} created. select * from administrators where ano=?
+2020-05-18 18:39:43,825 219    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Parameters : [ak]
+2020-05-18 18:39:43,825 219    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Types : [VARCHAR]
+2020-05-18 18:39:43,841 235    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} executed. 9.0634 millis. select * from administrators where ano=?
+2020-05-18 18:39:43,841 235    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} open
+2020-05-18 18:39:43,841 235    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} Header: [ano, apassword]
+2020-05-18 18:39:43,841 235    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} closed
+2020-05-18 18:39:43,841 235    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} clearParameters. 
+2020-05-18 18:39:43,841 235    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-18 18:41:13,550 89944  [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10001} closed
+2020-05-18 18:41:13,566 89960  [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10002} closed
+2020-05-18 18:41:13,566 89960  [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10003} closed
+2020-05-18 18:41:13,566 89960  [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10004} closed
+2020-05-18 18:41:13,566 89960  [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} closed
+2020-05-18 18:41:13,566 89960  [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10005} closed
+2020-05-18 18:41:34,040 0      [           main] DEBUG           druid.sql.Connection  - {conn-10001} connected
+2020-05-18 18:41:34,227 187    [           main] DEBUG           druid.sql.Connection  - {conn-10002} connected
+2020-05-18 18:41:34,383 343    [           main] DEBUG           druid.sql.Connection  - {conn-10003} connected
+2020-05-18 18:41:34,555 515    [           main] DEBUG           druid.sql.Connection  - {conn-10004} connected
+2020-05-18 18:41:34,727 687    [           main] DEBUG           druid.sql.Connection  - {conn-10005} connected
+2020-05-18 18:41:34,758 718    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-18 18:41:35,243 1203   [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} created. select * from administrators where ano=?
+2020-05-18 18:41:35,258 1218   [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Parameters : [ak]
+2020-05-18 18:41:35,258 1218   [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Types : [VARCHAR]
+2020-05-18 18:41:35,290 1250   [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} executed. 43.9774 millis. select * from administrators where ano=?
+2020-05-18 18:41:35,305 1265   [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} open
+2020-05-18 18:41:35,305 1265   [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} Header: [ano, apassword]
+2020-05-18 18:41:35,321 1281   [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} closed
+2020-05-18 18:41:35,321 1281   [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} clearParameters. 
+2020-05-18 18:41:35,321 1281   [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-18 18:41:38,290 4250   [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-18 18:41:38,290 4250   [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} created. insert into administrators values(?,?)
+2020-05-18 18:41:38,290 4250   [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} Parameters : [ak, 47]
+2020-05-18 18:41:38,290 4250   [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} Types : [VARCHAR, VARCHAR]
+2020-05-18 18:41:38,321 4281   [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} executed. 26.2241 millis. insert into administrators values(?,?)
+2020-05-18 18:41:38,321 4281   [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} clearParameters. 
+2020-05-18 18:41:38,321 4281   [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-18 18:41:59,261 25221  [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10001} closed
+2020-05-18 18:41:59,277 25237  [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10002} closed
+2020-05-18 18:41:59,277 25237  [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10003} closed
+2020-05-18 18:41:59,277 25237  [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10004} closed
+2020-05-18 18:41:59,277 25237  [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} closed
+2020-05-18 18:41:59,277 25237  [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} closed
+2020-05-18 18:41:59,277 25237  [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10005} closed
+2020-05-18 20:01:20,547 0      [           main] DEBUG           druid.sql.Connection  - {conn-10001} connected
+2020-05-18 20:01:20,547 0      [           main] DEBUG           druid.sql.Connection  - {conn-10002} connected
+2020-05-18 20:01:20,563 16     [           main] DEBUG           druid.sql.Connection  - {conn-10003} connected
+2020-05-18 20:01:20,579 32     [           main] DEBUG           druid.sql.Connection  - {conn-10004} connected
+2020-05-18 20:01:20,579 32     [           main] DEBUG           druid.sql.Connection  - {conn-10005} connected
+2020-05-18 20:01:20,594 47     [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-18 20:01:20,719 172    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} created. select * from administrators where ano=?
+2020-05-18 20:01:20,719 172    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Parameters : [ak]
+2020-05-18 20:01:20,719 172    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Types : [VARCHAR]
+2020-05-18 20:01:20,719 172    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} executed. 7.1647 millis. select * from administrators where ano=?
+2020-05-18 20:01:20,735 188    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} open
+2020-05-18 20:01:20,735 188    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} Header: [ano, apassword]
+2020-05-18 20:01:20,735 188    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} Result: [ak, 47]
+2020-05-18 20:01:20,735 188    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} closed
+2020-05-18 20:01:20,735 188    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} clearParameters. 
+2020-05-18 20:01:20,735 188    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-18 20:01:20,782 235    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10001} closed
+2020-05-18 20:01:20,782 235    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10002} closed
+2020-05-18 20:01:20,782 235    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10003} closed
+2020-05-18 20:01:20,782 235    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10004} closed
+2020-05-18 20:01:20,782 235    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} closed
+2020-05-18 20:01:20,782 235    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10005} closed
+2020-05-18 20:02:54,633 0      [           main] DEBUG           druid.sql.Connection  - {conn-10001} connected
+2020-05-18 20:02:54,649 16     [           main] DEBUG           druid.sql.Connection  - {conn-10002} connected
+2020-05-18 20:02:54,664 31     [           main] DEBUG           druid.sql.Connection  - {conn-10003} connected
+2020-05-18 20:02:54,680 47     [           main] DEBUG           druid.sql.Connection  - {conn-10004} connected
+2020-05-18 20:02:54,695 62     [           main] DEBUG           druid.sql.Connection  - {conn-10005} connected
+2020-05-18 20:02:54,695 62     [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-18 20:02:54,836 203    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} created. select * from administrators where ano=?
+2020-05-18 20:02:54,852 219    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Parameters : [ak]
+2020-05-18 20:02:54,852 219    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Types : [VARCHAR]
+2020-05-18 20:02:54,852 219    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} executed. 10.0524 millis. select * from administrators where ano=?
+2020-05-18 20:02:54,852 219    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} open
+2020-05-18 20:02:54,852 219    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} Header: [ano, apassword]
+2020-05-18 20:02:54,867 234    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} Result: [ak, 47]
+2020-05-18 20:02:54,867 234    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} closed
+2020-05-18 20:02:54,867 234    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} clearParameters. 
+2020-05-18 20:02:54,867 234    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-18 20:02:54,914 281    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10001} closed
+2020-05-18 20:02:54,914 281    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10002} closed
+2020-05-18 20:02:54,930 297    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10003} closed
+2020-05-18 20:02:54,930 297    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10004} closed
+2020-05-18 20:02:54,930 297    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} closed
+2020-05-18 20:02:54,930 297    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10005} closed
+2020-05-18 20:04:59,339 0      [           main] DEBUG           druid.sql.Connection  - {conn-10001} connected
+2020-05-18 20:04:59,370 31     [           main] DEBUG           druid.sql.Connection  - {conn-10002} connected
+2020-05-18 20:04:59,370 31     [           main] DEBUG           druid.sql.Connection  - {conn-10003} connected
+2020-05-18 20:04:59,386 47     [           main] DEBUG           druid.sql.Connection  - {conn-10004} connected
+2020-05-18 20:04:59,402 63     [           main] DEBUG           druid.sql.Connection  - {conn-10005} connected
+2020-05-18 20:04:59,418 79     [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10001} closed
+2020-05-18 20:04:59,418 79     [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10002} closed
+2020-05-18 20:04:59,418 79     [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10003} closed
+2020-05-18 20:04:59,418 79     [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10004} closed
+2020-05-18 20:04:59,433 94     [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10005} closed
+2020-05-18 20:05:10,608 0      [           main] DEBUG           druid.sql.Connection  - {conn-10001} connected
+2020-05-18 20:05:10,623 15     [           main] DEBUG           druid.sql.Connection  - {conn-10002} connected
+2020-05-18 20:05:10,639 31     [           main] DEBUG           druid.sql.Connection  - {conn-10003} connected
+2020-05-18 20:05:10,655 47     [           main] DEBUG           druid.sql.Connection  - {conn-10004} connected
+2020-05-18 20:05:10,670 62     [           main] DEBUG           druid.sql.Connection  - {conn-10005} connected
+2020-05-18 20:05:10,670 62     [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-18 20:05:10,811 203    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} created. select * from administrators where ano=?
+2020-05-18 20:05:10,811 203    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Parameters : [ak]
+2020-05-18 20:05:10,811 203    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Types : [VARCHAR]
+2020-05-18 20:05:10,827 219    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} executed. 8.9008 millis. select * from administrators where ano=?
+2020-05-18 20:05:10,827 219    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} open
+2020-05-18 20:05:10,827 219    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} Header: [ano, apassword]
+2020-05-18 20:05:10,827 219    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} Result: [ak, 47]
+2020-05-18 20:05:10,842 234    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} closed
+2020-05-18 20:05:10,842 234    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} clearParameters. 
+2020-05-18 20:05:10,842 234    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-18 20:05:10,889 281    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10001} closed
+2020-05-18 20:05:10,889 281    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10002} closed
+2020-05-18 20:05:10,889 281    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10003} closed
+2020-05-18 20:05:10,889 281    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10004} closed
+2020-05-18 20:05:10,905 297    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} closed
+2020-05-18 20:05:10,905 297    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10005} closed

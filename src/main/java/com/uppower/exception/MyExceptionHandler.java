@@ -18,7 +18,7 @@ import java.util.Map;
 public class MyExceptionHandler {
 
     @ResponseBody
-    @ExceptionHandler(UserException.class)
+    @ExceptionHandler(MyException.class)
     public Map<String,Object> handleException(Exception e){
 
         Map<String,Object> map = new HashMap<>();

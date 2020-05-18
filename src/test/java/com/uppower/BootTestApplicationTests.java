@@ -2,7 +2,6 @@ package com.uppower;
 
 import cn.windyrjc.utils.response.Response;
 import com.uppower.domain.Administrators;
-import com.uppower.mapper.AdministratorsMapper;
 import com.uppower.service.AdministratorsService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,0 +1,41 @@
+2020-05-18 20:04:46.848  INFO 9412 --- [main] com.uppower.BootTestApplicationTests     : Starting BootTestApplicationTests on 精彩逸轩 with PID 9412 (started by 精彩逸轩 in D:\Java\boot-test)
+2020-05-18 20:04:46.848  INFO 9412 --- [main] com.uppower.BootTestApplicationTests     : No active profile set, falling back to default profiles: default
+2020-05-18 20:04:48.442  INFO 9412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-18 20:04:48.442  INFO 9412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-18 20:04:48.473  INFO 9412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-05-18 20:04:50.880  INFO 9412 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-18 20:04:51.474  INFO 9412 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-18 20:04:51.567  INFO 9412 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-05-18 20:04:53.865  INFO 9412 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d6b7f4e1-87ec-4f39-b2b9-8329958cc1ca
+
+2020-05-18 20:04:54.224  INFO 9412 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6032622, org.springframework.security.web.context.SecurityContextPersistenceFilter@719bb60d, org.springframework.security.web.header.HeaderWriterFilter@37dec463, org.springframework.security.web.csrf.CsrfFilter@6f976c, org.springframework.security.web.authentication.logout.LogoutFilter@758d4aa9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6dbeaef8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3855b27e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5cc075da, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6068cda1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@49639118, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@59b1edab, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4258106, org.springframework.security.web.session.SessionManagementFilter@19213a74, org.springframework.security.web.access.ExceptionTranslationFilter@5454be, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@349aeec4]
+2020-05-18 20:04:54.365  INFO 9412 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-05-18 20:04:54.443  INFO 9412 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-05-18 20:04:54.474  INFO 9412 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-05-18 20:04:54.864  INFO 9412 --- [main] com.uppower.BootTestApplicationTests     : Started BootTestApplicationTests in 8.719 seconds (JVM running for 10.651)
+2020-05-18 20:04:58.214  INFO 9412 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-18 20:04:59.418  INFO 9412 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-05-18 20:04:59.433  INFO 9412 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-05-18 20:05:03.498  INFO 5636 --- [main] com.uppower.BootTestApplicationTests     : Starting BootTestApplicationTests on 精彩逸轩 with PID 5636 (started by 精彩逸轩 in D:\Java\boot-test)
+2020-05-18 20:05:03.498  INFO 5636 --- [main] com.uppower.BootTestApplicationTests     : No active profile set, falling back to default profiles: default
+2020-05-18 20:05:04.810  INFO 5636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-18 20:05:04.810  INFO 5636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-18 20:05:04.841  INFO 5636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2020-05-18 20:05:06.576  INFO 5636 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-18 20:05:06.998  INFO 5636 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-18 20:05:07.076  INFO 5636 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-05-18 20:05:08.638  INFO 5636 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d1c6d875-a974-416c-bc61-6491f10e84b1
+
+2020-05-18 20:05:08.857  INFO 5636 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@41e8d917, org.springframework.security.web.context.SecurityContextPersistenceFilter@5da57a64, org.springframework.security.web.header.HeaderWriterFilter@4522d793, org.springframework.security.web.csrf.CsrfFilter@fabef2e, org.springframework.security.web.authentication.logout.LogoutFilter@78318ac2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6ef1c3f7, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7e77678c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2ae5bd34, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7eee6c13, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e27f603, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5103eea2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b3f7704, org.springframework.security.web.session.SessionManagementFilter@4438b862, org.springframework.security.web.access.ExceptionTranslationFilter@37c2f0b4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1b47b7f5]
+2020-05-18 20:05:08.966  INFO 5636 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-05-18 20:05:08.998  INFO 5636 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-05-18 20:05:09.029  INFO 5636 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-05-18 20:05:09.169  INFO 5636 --- [main] com.uppower.BootTestApplicationTests     : Started BootTestApplicationTests in 6.182 seconds (JVM running for 7.567)
+2020-05-18 20:05:10.670  INFO 5636 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-05-18 20:05:10.842 ERROR 5636 --- [main] c.uppower.service.AdministratorsService  : 此管理员账号已存在
+2020-05-18 20:05:10.889  INFO 5636 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-18 20:05:10.905  INFO 5636 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
