@@ -7,6 +7,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
+import java.io.Serializable;
+
 /**
  * @author ：牟神箭
  * @date ：Created in 2020/5/14 20:01
@@ -19,7 +21,7 @@ import lombok.ToString;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-public class Course {
+public class Course implements Serializable {
 
     @ApiModelProperty(value = "课程号")
     private Integer cno;

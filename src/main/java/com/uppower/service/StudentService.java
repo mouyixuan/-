@@ -23,7 +23,7 @@ import org.springframework.transaction.annotation.Transactional;
 public class StudentService {
 
     @Autowired
-    StudentMapper studentMapper;
+    private StudentMapper studentMapper;
 
     public Response studentlogin(Student student){
         if (student.getSno().equals("") || student.getSpassword().equals("")){

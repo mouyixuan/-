@@ -7,6 +7,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
+import java.io.Serializable;
+
 /**
  * @author ：牟神箭
  * @date ：Created in 2020/5/14 20:24
@@ -19,7 +21,7 @@ import lombok.ToString;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-public class Teacher {
+public class Teacher implements Serializable {
 
     @ApiModelProperty(value = "教师账户")
     private String tno;

@@ -21,7 +21,13 @@ public interface CourseMapper {
      * @Description 查询课程
      **/
     @Select("select * from course where cno=#{cno}")
-    public Student findCourse(String cno);
+    public Course findCourseByNo(Integer cno);
+
+    /**
+     * @Description 查询课程
+     **/
+    @Select("select * from course where cname=#{cname}")
+    public Course findCourseByName(String cname);
 
     /**
      * @Description 添加课程
@@ -39,5 +45,5 @@ public interface CourseMapper {
      * @Description 删除课程
      **/
     @Delete("delete from course where cno=#{cno}")
-    public void deleteCourse(String cno);
+    public void deleteCourse(Integer cno);
 }

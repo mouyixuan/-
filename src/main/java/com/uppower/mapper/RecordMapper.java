@@ -20,19 +20,19 @@ import org.springframework.stereotype.Component;
 public interface RecordMapper {
 
     /**
-     * @Description 查询签到纪律
+     * @Description 查询签到记录
      **/
     @Select("select * from record")
-    public Teacher findRecord();
+    public Record findRecord();
 
     /**
-     * @Description 添加签到纪律
+     * @Description 添加签到记录
      **/
     @Insert("insert into record values(#{rtime},#{score},#{c_no},#{s_no})")
     public void addRecord(Record record);
 
     /**
-     * @Description 修改签到情况
+     * @Description 修改签到记录
      **/
     @Update("update record set score=#{score} where rtime=#{rtime},s_no=#{s_no}")
     public void updateRecord(Record record);

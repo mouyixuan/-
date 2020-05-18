@@ -22,7 +22,7 @@ import org.springframework.transaction.annotation.Transactional;
 public class AdministratorsService {
 
     @Autowired
-    AdministratorsMapper administratorsMapper;
+    private AdministratorsMapper administratorsMapper;
 
     public Response administratorslogin(Administrators administrators){
         if (administrators.getAno().equals("") || administrators.getApassword().equals("")){

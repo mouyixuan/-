@@ -24,7 +24,7 @@ import org.springframework.transaction.annotation.Transactional;
 public class TeacherService {
 
     @Autowired
-    TeacherMapper teacherMapper;
+    private TeacherMapper teacherMapper;
 
     public Response teacherlogin(Teacher teacher){
         if (teacher.getTno().equals("") || teacher.getTpassword().equals("")){

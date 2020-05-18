@@ -1,6 +1,7 @@
 package com.uppower.mapper;
 
-import com.uppower.domain.Number;
+import com.uppower.domain.Code;
+import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
@@ -15,17 +16,23 @@ import org.springframework.stereotype.Component;
  */
 @Mapper
 @Component(value = "numberMapper")
-public interface NumberMapper {
+public interface CodeMapper {
 
      /**
       * @Description 查询签到信息
       **/
-    @Select("select * from number where no=#{no}")
-    public Number findNumber(Number number);
+    @Select("select * from code where no=#{no}")
+    public Code findCode(String no);
 
      /**
       * @Description 签到码生成
       **/
-    @Insert("insert into number values(#{no},#{ntime},#{c_no},#{t_no})")
-    public void addNumber(Number number);
+    @Insert("insert into code values(#{no},#{ntime},#{c_no},#{t_no})")
+    public void addCode(Code code);
+
+     /**
+      * @Description 签到码删除
+      **/
+     @Delete("delete from code where no=#{no}")
+    public void deleteCode(String no);
 }
