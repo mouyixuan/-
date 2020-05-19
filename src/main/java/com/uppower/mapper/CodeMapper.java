@@ -1,10 +1,7 @@
 package com.uppower.mapper;
 
 import com.uppower.domain.Code;
-import org.apache.ibatis.annotations.Delete;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Component;
 
 /**
@@ -22,6 +19,12 @@ public interface CodeMapper {
       * @Description 查询签到信息
       **/
     @Select("select * from code where no=#{no}")
+    @Results({
+            @Result(property = "no",  column = "no"),
+            @Result(property = "ntime",  column = "ntime"),
+            @Result(property = "c_no",  column = "c_no"),
+            @Result(property = "t_no",  column = "t_no")
+    })
     public Code findCode(String no);
 
      /**

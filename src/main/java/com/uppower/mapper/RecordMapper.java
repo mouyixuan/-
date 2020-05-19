@@ -2,10 +2,7 @@ package com.uppower.mapper;
 
 import com.uppower.domain.Record;
 import com.uppower.domain.Teacher;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.annotations.Update;
+import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Component;
 
 /**
@@ -23,6 +20,12 @@ public interface RecordMapper {
      * @Description 查询签到记录
      **/
     @Select("select * from record")
+    @Results({
+            @Result(property = "rtime",  column = "rtime"),
+            @Result(property = "score",  column = "score"),
+            @Result(property = "c_no",  column = "c_no"),
+            @Result(property = "s_no",  column = "s_no")
+    })
     public Record findRecord();
 
     /**

@@ -21,6 +21,13 @@ public interface TeacherMapper {
      * @Description 查询教师账号
      **/
     @Select("select * from teacher where tno=#{tno}")
+    @Results({
+            @Result(property = "tno",  column = "tno"),
+            @Result(property = "tpassword",  column = "tpassword"),
+            @Result(property = "tname",  column = "tname"),
+            @Result(property = "tsex",  column = "tsex"),
+            @Result(property = "profession",  column = "profession")
+    })
     public Teacher findTeacher(String tno);
 
     /**

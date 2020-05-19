@@ -31,6 +31,7 @@ public class CodeService {
 
     public Response codefind(String no){
         Code code = codeMapper.findCode(no);
+        System.out.println(code);
         return Response.success(code);
     }
 }

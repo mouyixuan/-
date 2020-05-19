@@ -812,3 +812,313 @@ java.sql.SQLSyntaxErrorException: Table 'si_system.number' doesn't exist
 2020-05-18 22:55:34,633 304    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10004} closed
 2020-05-18 22:55:34,634 305    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} closed
 2020-05-18 22:55:34,636 307    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10005} closed
+2020-05-19 08:50:36,156 0      [           main] DEBUG           druid.sql.Connection  - {conn-10001} connected
+2020-05-19 08:50:36,202 46     [           main] DEBUG           druid.sql.Connection  - {conn-10002} connected
+2020-05-19 08:50:36,202 46     [           main] DEBUG           druid.sql.Connection  - {conn-10003} connected
+2020-05-19 08:50:36,218 62     [           main] DEBUG           druid.sql.Connection  - {conn-10004} connected
+2020-05-19 08:50:36,218 62     [           main] DEBUG           druid.sql.Connection  - {conn-10005} connected
+2020-05-19 08:50:36,234 78     [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-19 08:50:36,374 218    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} created. select * from code where no=?
+2020-05-19 08:50:36,374 218    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Parameters : [1]
+2020-05-19 08:50:36,374 218    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Types : [VARCHAR]
+2020-05-19 08:50:36,390 234    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} executed. 9.3401 millis. select * from code where no=?
+2020-05-19 08:50:36,390 234    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} open
+2020-05-19 08:50:36,390 234    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} Header: [no, ntime, c_no, t_no]
+2020-05-19 08:50:36,390 234    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} Result: [1, 2020-05-18, 1, 1001]
+2020-05-19 08:50:36,390 234    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} closed
+2020-05-19 08:50:36,390 234    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} clearParameters. 
+2020-05-19 08:50:36,390 234    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-19 08:50:36,437 281    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10001} closed
+2020-05-19 08:50:36,437 281    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10002} closed
+2020-05-19 08:50:36,437 281    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10003} closed
+2020-05-19 08:50:36,437 281    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10004} closed
+2020-05-19 08:50:36,437 281    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} closed
+2020-05-19 08:50:36,437 281    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10005} closed
+2020-05-19 09:05:55,593 0      [           main] DEBUG           druid.sql.Connection  - {conn-10001} connected
+2020-05-19 09:05:55,613 20     [           main] DEBUG           druid.sql.Connection  - {conn-10002} connected
+2020-05-19 09:05:55,628 35     [           main] DEBUG           druid.sql.Connection  - {conn-10003} connected
+2020-05-19 09:05:55,628 35     [           main] DEBUG           druid.sql.Connection  - {conn-10004} connected
+2020-05-19 09:05:55,644 51     [           main] DEBUG           druid.sql.Connection  - {conn-10005} connected
+2020-05-19 09:05:55,644 51     [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-19 09:05:55,793 200    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} created. select * from administrators where ano=?
+2020-05-19 09:05:55,793 200    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Parameters : [admin]
+2020-05-19 09:05:55,793 200    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Types : [VARCHAR]
+2020-05-19 09:05:55,808 215    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} executed. 8.9985 millis. select * from administrators where ano=?
+2020-05-19 09:05:55,813 220    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} open
+2020-05-19 09:05:55,813 220    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} Header: [ano, apassword]
+2020-05-19 09:05:55,818 225    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} Result: [admin, 123123]
+2020-05-19 09:05:55,818 225    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} closed
+2020-05-19 09:05:55,823 230    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} clearParameters. 
+2020-05-19 09:05:55,823 230    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-19 09:05:55,823 230    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-19 09:05:55,823 230    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} created. select * from code where no=?
+2020-05-19 09:05:55,823 230    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} Parameters : [1]
+2020-05-19 09:05:55,823 230    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} Types : [VARCHAR]
+2020-05-19 09:05:55,823 230    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} executed. 0.8321 millis. select * from code where no=?
+2020-05-19 09:05:55,823 230    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20001, rs-50001} open
+2020-05-19 09:05:55,823 230    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20001, rs-50001} Header: [no, ntime, c_no, t_no]
+2020-05-19 09:05:55,823 230    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20001, rs-50001} Result: [1, 2020-05-18, 1, 1001]
+2020-05-19 09:05:55,823 230    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20001, rs-50001} closed
+2020-05-19 09:05:55,823 230    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} clearParameters. 
+2020-05-19 09:05:55,828 235    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-19 09:05:55,828 235    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-19 09:05:55,828 235    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20002} created. select * from record
+2020-05-19 09:05:55,828 235    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20002} Parameters : []
+2020-05-19 09:05:55,828 235    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20002} Types : []
+2020-05-19 09:05:55,828 235    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20002} executed. 1.0224 millis. select * from record
+2020-05-19 09:05:55,828 235    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20002, rs-50002} open
+2020-05-19 09:05:55,828 235    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20002, rs-50002} Header: [rtime, score, c_no, s_no]
+2020-05-19 09:05:55,828 235    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20002, rs-50002} closed
+2020-05-19 09:05:55,828 235    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20002} clearParameters. 
+2020-05-19 09:05:55,828 235    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-19 09:05:55,828 235    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-19 09:05:55,828 235    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20003} created. select * from course where cno=?
+2020-05-19 09:05:55,833 240    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20003} Parameters : [1]
+2020-05-19 09:05:55,833 240    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20003} Types : [INTEGER]
+2020-05-19 09:05:55,833 240    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20003} executed. 0.8262 millis. select * from course where cno=?
+2020-05-19 09:05:55,833 240    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20003, rs-50003} open
+2020-05-19 09:05:55,833 240    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20003, rs-50003} Header: [cno, cname, t_no]
+2020-05-19 09:05:55,833 240    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20003, rs-50003} Result: [1, 软件工程, 1001]
+2020-05-19 09:05:55,833 240    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20003, rs-50003} closed
+2020-05-19 09:05:55,833 240    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20003} clearParameters. 
+2020-05-19 09:05:55,833 240    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-19 09:05:55,833 240    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-19 09:05:55,833 240    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20004} created. select * from student where sno=?
+2020-05-19 09:05:55,833 240    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20004} Parameters : [1840610312]
+2020-05-19 09:05:55,833 240    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20004} Types : [VARCHAR]
+2020-05-19 09:05:55,833 240    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20004} executed. 0.697 millis. select * from student where sno=?
+2020-05-19 09:05:55,833 240    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20004, rs-50004} open
+2020-05-19 09:05:55,833 240    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20004, rs-50004} Header: [sno, spassword, sname, ssex]
+2020-05-19 09:05:55,833 240    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20004, rs-50004} Result: [1840610312, 123123, 牟神箭, 男]
+2020-05-19 09:05:55,833 240    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20004, rs-50004} closed
+2020-05-19 09:05:55,833 240    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20004} clearParameters. 
+2020-05-19 09:05:55,833 240    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-19 09:05:55,833 240    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-19 09:05:55,833 240    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20005} created. select * from teacher where tno=?
+2020-05-19 09:05:55,833 240    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20005} Parameters : [1001]
+2020-05-19 09:05:55,833 240    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20005} Types : [VARCHAR]
+2020-05-19 09:05:55,833 240    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20005} executed. 0.6511 millis. select * from teacher where tno=?
+2020-05-19 09:05:55,833 240    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20005, rs-50005} open
+2020-05-19 09:05:55,833 240    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20005, rs-50005} Header: [tno, tpassword, tname, tsex, profession]
+2020-05-19 09:05:55,833 240    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20005, rs-50005} Result: [1001, 111, 坚锐, 男, 计算机老师]
+2020-05-19 09:05:55,833 240    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20005, rs-50005} closed
+2020-05-19 09:05:55,833 240    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20005} clearParameters. 
+2020-05-19 09:05:55,833 240    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-19 09:05:55,862 269    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10001} closed
+2020-05-19 09:05:55,862 269    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10002} closed
+2020-05-19 09:05:55,873 280    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10003} closed
+2020-05-19 09:05:55,873 280    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10004} closed
+2020-05-19 09:05:55,873 280    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} closed
+2020-05-19 09:05:55,873 280    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} closed
+2020-05-19 09:05:55,873 280    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20002} closed
+2020-05-19 09:05:55,873 280    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20003} closed
+2020-05-19 09:05:55,873 280    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20004} closed
+2020-05-19 09:05:55,873 280    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20005} closed
+2020-05-19 09:05:55,873 280    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10005} closed
+2020-05-19 09:14:31,674 0      [           main] DEBUG           druid.sql.Connection  - {conn-10001} connected
+2020-05-19 09:14:31,686 12     [           main] DEBUG           druid.sql.Connection  - {conn-10002} connected
+2020-05-19 09:14:31,695 21     [           main] DEBUG           druid.sql.Connection  - {conn-10003} connected
+2020-05-19 09:14:31,703 29     [           main] DEBUG           druid.sql.Connection  - {conn-10004} connected
+2020-05-19 09:14:31,713 39     [           main] DEBUG           druid.sql.Connection  - {conn-10005} connected
+2020-05-19 09:14:31,721 47     [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-19 09:14:31,838 164    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} created. insert into record values(?,?,?,?)
+2020-05-19 09:14:31,845 171    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} clearParameters. 
+2020-05-19 09:14:31,845 171    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-19 09:14:31,992 318    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10001} closed
+2020-05-19 09:14:31,993 319    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10002} closed
+2020-05-19 09:14:31,994 320    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10003} closed
+2020-05-19 09:14:31,995 321    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10004} closed
+2020-05-19 09:14:31,995 321    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} closed
+2020-05-19 09:14:31,996 322    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10005} closed
+2020-05-19 09:27:36,919 0      [           main] DEBUG           druid.sql.Connection  - {conn-10001} connected
+2020-05-19 09:27:36,932 13     [           main] DEBUG           druid.sql.Connection  - {conn-10002} connected
+2020-05-19 09:27:36,943 24     [           main] DEBUG           druid.sql.Connection  - {conn-10003} connected
+2020-05-19 09:27:36,954 35     [           main] DEBUG           druid.sql.Connection  - {conn-10004} connected
+2020-05-19 09:27:36,965 46     [           main] DEBUG           druid.sql.Connection  - {conn-10005} connected
+2020-05-19 09:27:36,974 55     [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-19 09:27:37,093 174    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} created. insert into record values(?,?,?,?)
+2020-05-19 09:27:37,102 183    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Parameters : [2020-05-19 09:27:35.698, 1, 1, 1840610312]
+2020-05-19 09:27:37,102 183    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Types : [TIMESTAMP, INTEGER, INTEGER, VARCHAR]
+2020-05-19 09:27:37,116 197    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} executed. 14.6348 millis. insert into record values(?,?,?,?)
+2020-05-19 09:27:37,116 197    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} clearParameters. 
+2020-05-19 09:27:37,117 198    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-19 09:27:37,166 247    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10001} closed
+2020-05-19 09:27:37,169 250    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10002} closed
+2020-05-19 09:27:37,171 252    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10003} closed
+2020-05-19 09:27:37,172 253    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10004} closed
+2020-05-19 09:27:37,173 254    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} closed
+2020-05-19 09:27:37,173 254    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10005} closed
+2020-05-19 09:28:09,663 0      [           main] DEBUG           druid.sql.Connection  - {conn-10001} connected
+2020-05-19 09:28:09,678 15     [           main] DEBUG           druid.sql.Connection  - {conn-10002} connected
+2020-05-19 09:28:09,692 29     [           main] DEBUG           druid.sql.Connection  - {conn-10003} connected
+2020-05-19 09:28:09,706 43     [           main] DEBUG           druid.sql.Connection  - {conn-10004} connected
+2020-05-19 09:28:09,718 55     [           main] DEBUG           druid.sql.Connection  - {conn-10005} connected
+2020-05-19 09:28:09,729 66     [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-19 09:28:09,897 234    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} created. select * from code where no=?
+2020-05-19 09:28:09,902 239    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Parameters : [1]
+2020-05-19 09:28:09,902 239    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Types : [VARCHAR]
+2020-05-19 09:28:09,910 247    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} executed. 8.8883 millis. select * from code where no=?
+2020-05-19 09:28:09,913 250    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} open
+2020-05-19 09:28:09,914 251    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} Header: [no, ntime, c_no, t_no]
+2020-05-19 09:28:09,920 257    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} Result: [1, 2020-05-18, 1, 1001]
+2020-05-19 09:28:09,922 259    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} closed
+2020-05-19 09:28:09,924 261    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} clearParameters. 
+2020-05-19 09:28:09,925 262    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-19 09:28:09,925 262    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-19 09:28:09,927 264    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} created. select * from record
+2020-05-19 09:28:09,927 264    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} Parameters : []
+2020-05-19 09:28:09,927 264    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} Types : []
+2020-05-19 09:28:09,928 265    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} executed. 0.9533 millis. select * from record
+2020-05-19 09:28:09,928 265    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20001, rs-50001} open
+2020-05-19 09:28:09,928 265    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20001, rs-50001} Header: [rtime, score, c_no, s_no]
+2020-05-19 09:28:09,929 266    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20001, rs-50001} Result: [2020-05-19, 1, 1, 1840610312]
+2020-05-19 09:28:09,929 266    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20001, rs-50001} closed
+2020-05-19 09:28:09,929 266    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} clearParameters. 
+2020-05-19 09:28:09,929 266    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-19 09:28:09,930 267    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-19 09:28:09,930 267    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20002} created. select * from course where cno=?
+2020-05-19 09:28:09,931 268    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20002} Parameters : [1]
+2020-05-19 09:28:09,931 268    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20002} Types : [INTEGER]
+2020-05-19 09:28:09,932 269    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20002} executed. 0.7659 millis. select * from course where cno=?
+2020-05-19 09:28:09,932 269    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20002, rs-50002} open
+2020-05-19 09:28:09,932 269    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20002, rs-50002} Header: [cno, cname, t_no]
+2020-05-19 09:28:09,932 269    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20002, rs-50002} Result: [1, 软件工程, 1001]
+2020-05-19 09:28:09,932 269    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20002, rs-50002} closed
+2020-05-19 09:28:09,932 269    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20002} clearParameters. 
+2020-05-19 09:28:09,933 270    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-19 09:28:09,969 306    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10001} closed
+2020-05-19 09:28:09,970 307    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10002} closed
+2020-05-19 09:28:09,971 308    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10003} closed
+2020-05-19 09:28:09,971 308    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10004} closed
+2020-05-19 09:28:09,972 309    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} closed
+2020-05-19 09:28:09,972 309    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} closed
+2020-05-19 09:28:09,972 309    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20002} closed
+2020-05-19 09:28:09,973 310    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10005} closed
+2020-05-19 09:45:25,000 0      [           main] DEBUG           druid.sql.Connection  - {conn-10001} connected
+2020-05-19 09:45:25,016 16     [           main] DEBUG           druid.sql.Connection  - {conn-10002} connected
+2020-05-19 09:45:25,028 28     [           main] DEBUG           druid.sql.Connection  - {conn-10003} connected
+2020-05-19 09:45:25,039 39     [           main] DEBUG           druid.sql.Connection  - {conn-10004} connected
+2020-05-19 09:45:25,050 50     [           main] DEBUG           druid.sql.Connection  - {conn-10005} connected
+2020-05-19 09:45:25,063 63     [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-19 09:45:25,223 223    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} created. select * from code where no=?
+2020-05-19 09:45:25,228 228    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Parameters : [1]
+2020-05-19 09:45:25,228 228    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Types : [VARCHAR]
+2020-05-19 09:45:25,237 237    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} executed. 10.2213 millis. select * from code where no=?
+2020-05-19 09:45:25,241 241    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} open
+2020-05-19 09:45:25,243 243    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} Header: [no, ntime, c_no, t_no]
+2020-05-19 09:45:25,249 249    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} Result: [1, 2020-05-18, 1, 1001]
+2020-05-19 09:45:25,252 252    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} closed
+2020-05-19 09:45:25,254 254    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} clearParameters. 
+2020-05-19 09:45:25,255 255    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-19 09:45:25,256 256    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-19 09:45:25,258 258    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} created. select * from record
+2020-05-19 09:45:25,258 258    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} Parameters : []
+2020-05-19 09:45:25,258 258    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} Types : []
+2020-05-19 09:45:25,259 259    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} executed. 1.0356 millis. select * from record
+2020-05-19 09:45:25,259 259    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20001, rs-50001} open
+2020-05-19 09:45:25,259 259    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20001, rs-50001} Header: [rtime, score, c_no, s_no]
+2020-05-19 09:45:25,260 260    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20001, rs-50001} Result: [2020-05-19, 1, 1, 1840610312]
+2020-05-19 09:45:25,260 260    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20001, rs-50001} closed
+2020-05-19 09:45:25,260 260    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} clearParameters. 
+2020-05-19 09:45:25,260 260    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-19 09:45:25,261 261    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-19 09:45:25,261 261    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20002} created. select * from course where cno=?
+2020-05-19 09:45:25,262 262    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20002} Parameters : [1]
+2020-05-19 09:45:25,262 262    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20002} Types : [INTEGER]
+2020-05-19 09:45:25,263 263    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20002} executed. 1.0228 millis. select * from course where cno=?
+2020-05-19 09:45:25,263 263    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20002, rs-50002} open
+2020-05-19 09:45:25,263 263    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20002, rs-50002} Header: [cno, cname, t_no]
+2020-05-19 09:45:25,264 264    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20002, rs-50002} Result: [1, 软件工程, 1001]
+2020-05-19 09:45:25,264 264    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20002, rs-50002} closed
+2020-05-19 09:45:25,264 264    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20002} clearParameters. 
+2020-05-19 09:45:25,264 264    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-19 09:45:25,301 301    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10001} closed
+2020-05-19 09:45:25,302 302    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10002} closed
+2020-05-19 09:45:25,303 303    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10003} closed
+2020-05-19 09:45:25,304 304    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10004} closed
+2020-05-19 09:45:25,304 304    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} closed
+2020-05-19 09:45:25,305 305    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} closed
+2020-05-19 09:45:25,305 305    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20002} closed
+2020-05-19 09:45:25,305 305    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10005} closed
+2020-05-19 10:24:52,713 1      [           main] DEBUG           druid.sql.Connection  - {conn-10001} connected
+2020-05-19 10:24:52,734 22     [           main] DEBUG           druid.sql.Connection  - {conn-10002} connected
+2020-05-19 10:24:52,755 43     [           main] DEBUG           druid.sql.Connection  - {conn-10003} connected
+2020-05-19 10:24:52,778 66     [           main] DEBUG           druid.sql.Connection  - {conn-10004} connected
+2020-05-19 10:24:52,798 86     [           main] DEBUG           druid.sql.Connection  - {conn-10005} connected
+2020-05-19 10:24:52,819 107    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-19 10:24:53,089 377    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} created. select * from administrators where ano=?
+2020-05-19 10:24:53,098 386    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Parameters : [admin]
+2020-05-19 10:24:53,099 387    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} Types : [VARCHAR]
+2020-05-19 10:24:53,113 401    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} executed. 16.9163 millis. select * from administrators where ano=?
+2020-05-19 10:24:53,119 407    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} open
+2020-05-19 10:24:53,122 410    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} Header: [ano, apassword]
+2020-05-19 10:24:53,130 418    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} Result: [admin, 123123]
+2020-05-19 10:24:53,133 421    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20000, rs-50000} closed
+2020-05-19 10:24:53,136 424    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} clearParameters. 
+2020-05-19 10:24:53,138 426    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-19 10:24:53,139 427    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-19 10:24:53,139 427    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} created. select * from code where no=?
+2020-05-19 10:24:53,140 428    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} Parameters : [1]
+2020-05-19 10:24:53,140 428    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} Types : [VARCHAR]
+2020-05-19 10:24:53,142 430    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} executed. 1.9554 millis. select * from code where no=?
+2020-05-19 10:24:53,142 430    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20001, rs-50001} open
+2020-05-19 10:24:53,142 430    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20001, rs-50001} Header: [no, ntime, c_no, t_no]
+2020-05-19 10:24:53,144 432    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20001, rs-50001} Result: [1, 2020-05-18, 1, 1001]
+2020-05-19 10:24:53,144 432    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20001, rs-50001} closed
+2020-05-19 10:24:53,145 433    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} clearParameters. 
+2020-05-19 10:24:53,145 433    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-19 10:24:53,145 433    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-19 10:24:53,148 436    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20002} created. select * from record
+2020-05-19 10:24:53,148 436    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20002} Parameters : []
+2020-05-19 10:24:53,148 436    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20002} Types : []
+2020-05-19 10:24:53,150 438    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20002} executed. 1.8956 millis. select * from record
+2020-05-19 10:24:53,150 438    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20002, rs-50002} open
+2020-05-19 10:24:53,150 438    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20002, rs-50002} Header: [rtime, score, c_no, s_no]
+2020-05-19 10:24:53,151 439    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20002, rs-50002} Result: [2020-05-19, 1, 1, 1840610312]
+2020-05-19 10:24:53,151 439    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20002, rs-50002} closed
+2020-05-19 10:24:53,152 440    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20002} clearParameters. 
+2020-05-19 10:24:53,152 440    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-19 10:24:53,152 440    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-19 10:24:53,153 441    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20003} created. select * from course where cno=?
+2020-05-19 10:24:53,154 442    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20003} Parameters : [1]
+2020-05-19 10:24:53,154 442    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20003} Types : [INTEGER]
+2020-05-19 10:24:53,156 444    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20003} executed. 2.1041 millis. select * from course where cno=?
+2020-05-19 10:24:53,156 444    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20003, rs-50003} open
+2020-05-19 10:24:53,156 444    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20003, rs-50003} Header: [cno, cname, t_no]
+2020-05-19 10:24:53,157 445    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20003, rs-50003} Result: [1, 软件工程, 1001]
+2020-05-19 10:24:53,157 445    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20003, rs-50003} closed
+2020-05-19 10:24:53,157 445    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20003} clearParameters. 
+2020-05-19 10:24:53,157 445    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-19 10:24:53,158 446    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-19 10:24:53,158 446    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20004} created. select * from student where sno=?
+2020-05-19 10:24:53,159 447    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20004} Parameters : [1840610312]
+2020-05-19 10:24:53,159 447    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20004} Types : [VARCHAR]
+2020-05-19 10:24:53,160 448    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20004} executed. 1.7806 millis. select * from student where sno=?
+2020-05-19 10:24:53,161 449    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20004, rs-50004} open
+2020-05-19 10:24:53,161 449    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20004, rs-50004} Header: [sno, spassword, sname, ssex]
+2020-05-19 10:24:53,161 449    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20004, rs-50004} Result: [1840610312, 123123, 牟神箭, 男]
+2020-05-19 10:24:53,162 450    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20004, rs-50004} closed
+2020-05-19 10:24:53,162 450    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20004} clearParameters. 
+2020-05-19 10:24:53,162 450    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-19 10:24:53,162 450    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-connect
+2020-05-19 10:24:53,163 451    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20005} created. select * from teacher where tno=?
+2020-05-19 10:24:53,163 451    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20005} Parameters : [1001]
+2020-05-19 10:24:53,163 451    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20005} Types : [VARCHAR]
+2020-05-19 10:24:53,165 453    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20005} executed. 1.8098 millis. select * from teacher where tno=?
+2020-05-19 10:24:53,165 453    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20005, rs-50005} open
+2020-05-19 10:24:53,165 453    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20005, rs-50005} Header: [tno, tpassword, tname, tsex, profession]
+2020-05-19 10:24:53,165 453    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20005, rs-50005} Result: [1001, 111, 坚锐, 男, 计算机老师]
+2020-05-19 10:24:53,166 454    [           main] DEBUG            druid.sql.ResultSet  - {conn-10005, pstmt-20005, rs-50005} closed
+2020-05-19 10:24:53,166 454    [           main] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20005} clearParameters. 
+2020-05-19 10:24:53,166 454    [           main] DEBUG           druid.sql.Connection  - {conn-10005} pool-recycle
+2020-05-19 10:24:53,219 507    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10001} closed
+2020-05-19 10:24:53,221 509    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10002} closed
+2020-05-19 10:24:53,222 510    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10003} closed
+2020-05-19 10:24:53,223 511    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10004} closed
+2020-05-19 10:24:53,224 512    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20000} closed
+2020-05-19 10:24:53,224 512    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20001} closed
+2020-05-19 10:24:53,224 512    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20002} closed
+2020-05-19 10:24:53,224 512    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20003} closed
+2020-05-19 10:24:53,224 512    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20004} closed
+2020-05-19 10:24:53,224 512    [extShutdownHook] DEBUG            druid.sql.Statement  - {conn-10005, pstmt-20005} closed
+2020-05-19 10:24:53,226 514    [extShutdownHook] DEBUG           druid.sql.Connection  - {conn-10005} closed

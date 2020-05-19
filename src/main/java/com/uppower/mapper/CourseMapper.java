@@ -18,15 +18,25 @@ public interface CourseMapper {
 
 
     /**
-     * @Description 查询课程
+     * @Description 通过课程号查询课程
      **/
     @Select("select * from course where cno=#{cno}")
+    @Results({
+            @Result(property = "cno",  column = "cno"),
+            @Result(property = "cname",  column = "cname"),
+            @Result(property = "t_no",  column = "t_no"),
+    })
     public Course findCourseByNo(Integer cno);
 
     /**
-     * @Description 查询课程
+     * @Description 通过课程名查询课程
      **/
     @Select("select * from course where cname=#{cname}")
+    @Results({
+            @Result(property = "cno",  column = "cno"),
+            @Result(property = "cname",  column = "cname"),
+            @Result(property = "t_no",  column = "t_no")
+    })
     public Course findCourseByName(String cname);
 
     /**

@@ -20,6 +20,10 @@ public interface AdministratorsMapper {
      * @Description 查询管理员账户
      **/
     @Select("select * from administrators where ano=#{ano}")
+    @Results({
+            @Result(property = "ano",  column = "ano"),
+            @Result(property = "apassword",  column = "apassword"),
+    })
     public Administrators findAdmin(String ano);
 
      /**

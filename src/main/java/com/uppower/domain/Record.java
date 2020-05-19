@@ -27,12 +27,12 @@ public class Record implements Serializable {
     @ApiModelProperty("签到时间")
     private Date rtime;
 
-    @ApiModelProperty("签到情况 1=正常 0=迟到 3=旷课")
+    @ApiModelProperty("签到情况 1=正常 0=迟到 -1=旷课")
     private Integer score;
 
     @ApiModelProperty("签到课程")
     private Integer c_no;
 
     @ApiModelProperty("签到学生")
-    private String s_on;
+    private String s_no;
 }

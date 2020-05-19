@@ -20,6 +20,12 @@ public interface StudentMapper {
      * @Description 查询学生账号
      **/
     @Select("select * from student where sno=#{sno}")
+    @Results({
+            @Result(property = "sno",  column = "sno"),
+            @Result(property = "spassword",  column = "spassword"),
+            @Result(property = "sname",  column = "sname"),
+            @Result(property = "ssex",  column = "ssex")
+    })
     public Student findStudent(String sno);
 
     /**
